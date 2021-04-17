@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./assets/css/gallery.css" />
+    <link rel="shortcut icon" href="./assets/images/Gallery.ico" />
+    <link rel="stylesheet" href="./assets/css/style.css" id="theme-link" />
+    <script src="https://kit.fontawesome.com/bb8ae9b273.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <section class="section">
+        <!--navigation------------------------->
+        <nav id="navbar">
+            <!--logo-->
+            <div onclick="window.open('./#','_self')" class="logo" alt='home' title="Home">RI<b>.</b>SHU<b>20</b></div>
+            <!--menu-->
+            <ul>
+                <li><a href="./#about" onclick="toggle_close()">About</a></li>
+                <li><a href="./#project" onclick="toggle_close()">Project</a></li>
+                <li><a href="./#contact" onclick="toggle_close()">Contact</a></li>
+                <li><a href="./gallery.html" onclick="toggle_close()">Gallery</a></li>
+                <span></span>
+
+            </ul>
+            <!--bars--------------->
+            <div class="toggle"></div>
+        </nav>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+
+        <h1 class="gallery-heading">Gallery</h1>
+        <div class="gallery-container">
+            <div class="gallery-item" data-index="1">
+                <img src="./assets/images/image1-4-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="2">
+                <img src="./assets/images/image0-4-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="3">
+                <img src="./assets/images/image3-4-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="4">
+                <img src="./assets/images/image4-4-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="5">
+                <img src="./assets/images/image5-3-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="6">
+                <img src="./assets/images/image2-4-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="7">
+                <img src="./assets/images/image3-1900x1468.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="8">
+                <img src="./assets/images/image0-1-1900x1468.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="9">
+                <img src="./assets/images/image1-1900x1468.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="10">
+                <img src="./assets/images/image5-1900x1468.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="11">
+                <img src="./assets/images/image2-1-1900x1468.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="12">
+                <img src="./assets/images/image4-1900x1468.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="13">
+                <img src="./assets/images/image1-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="14">
+                <img src="./assets/images/image0-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="15">
+                <img src="./assets/images/image2-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="16">
+                <img src="./assets/images/image3-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="17">
+                <img src="./assets/images/image4-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="18">
+                <img src="./assets/images/image5-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="19">
+                <img src="./assets/images/image5-1-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="20">
+                <img src="./assets/images/image6-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="21">
+                <img src="./assets/images/image0-1-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="22">
+                <img src="./assets/images/image1-1-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="23">
+                <img src="./assets/images/image2-1-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="24">
+                <img src="./assets/images/image3-1-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="25">
+                <img src="./assets/images/image4-1-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="26">
+                <img src="./assets/images/image4-3-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="27">
+                <img src="./assets/images/image0-3-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="28">
+                <img src="./assets/images/image1-3-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="29">
+                <img src="./assets/images/image2-3-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="30">
+                <img src="./assets/images/image3-3-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="31">
+                <img src="./assets/images/image1-2-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="32">
+                <img src="./assets/images/image0-2-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="33">
+                <img src="./assets/images/image2-2-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="34">
+                <img src="./assets/images/image3-2-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="35">
+                <img src="./assets/images/image4-2-2200x1700.png" alt="">
+            </div>
+            <div class="gallery-item" data-index="36">
+                <img src="./assets/images/image5-2-2200x1700.png" alt="">
+            </div>
+        </div>
+
+        <!--social-attach-bar-->
+        <div class="social">
+
+            <div onclick="window.open('https://github.com/Rishu20','target blank')"><i class="fab fa-github"></i></div>
+            <div onclick="window.open('https://twitter.com/rishavshushant','target blank')"><i class="fab fa-twitter"></i>
+            </div>
+            <div class="btn btn-toggle" onclick="imagefun()"><i class="fas fa-moon btn-toggle"></i></div>
+            <div onclick="window.open('mailto:sushantrishav90@gmail.com')" title="mail"><i class="fas fa-envelope"></i>
+            </div>
+            <div onclick="window.open('https://www.linkedin.com/in/shushantrishav/','target blank',)"><i
+                    class="fab fa-linkedin"></i></div>
+        </div>
+        <!--footer--------------->
+        <footer>
+            <span>Created By <a href="https://www.sushantrishav.live/" target='_black'>Shushant Rishav</a> | <span
+                    class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        </footer>
+    </section>
+    <!-- <script src="assets/js/prebuild_js/typed.js"></script> -->
+    <script src="./assets/js/gallery.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

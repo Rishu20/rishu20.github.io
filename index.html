@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0,minimum-scale=1, maximum-scale=1" />
+
+    <title>Rishu20</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" id="theme-link">
+    <link rel="stylesheet" href="./assets/css/prebuild_css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/prebuild_css/Owl_Carousel.css" />
+    <link rel="shortcut icon" href="./assets/images/rey-removebg-preview.png" />
+    <script src="https://kit.fontawesome.com/bb8ae9b273.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <section class="section">
+        <!--navigation------------------------->
+        <nav id='navbar'>
+            <!--logo-->
+            <div onclick="window.open('./#','_self')" class="logo" alt='home' title="Home">RI<b>.</b>SHU<b>20</b></div>
+            <!--menu-->
+            <ul>
+                <li><a href="./#about" onclick="toggle_close()">About</a></li>
+                <li><a href="./#project" onclick="toggle_close()">Project</a></li>
+                <li><a href="./#contact" onclick="toggle_close()">Contact</a></li>
+                <li><a href="./gallery.html" onclick="toggle_close()">Gallery</a></li>
+                <span></span>
+
+            </ul>
+            <!--bars--------------->
+            <div class="toggle"></div>
+        </nav>
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <!--text----------------------->
+    <div class="text-container">
+        <h2>Hello,</h2>
+        <p>I&#8217;M SHUSHANT</p>
+        <p>
+            I have created this <br> page to share my <br><b class="typing"></b>
+        </p>
+    </div>
+
+    <!--model---------------------->
+    <img alt="model" class="model" id="model" src="./assets/images/model.png">
+    <div class="about-container" id="about">
+        <!--img-->
+        <img src="./assets/images/about-img.jpg" />
+        <!--about-me-text-->
+        <div class="about-text">
+            <p>About Me</p>
+            <p>Devolper & Designer</p>
+            <p>
+                Hey there,<br />
+                Welcome to my page, I have created this page to share all of my works
+                projects and achivements at one place you can see my work on Github or
+                you can see me on linkedin by clicking the button below
+            </p>
+            <button class="btn_trasp" onclick="window.open('https://www.github.com/Rishu20/','target blank')">
+                <i class="fab fa-github"></i>&nbsp; Github
+            </button>
+            <button class="btn_sol" onclick="window.open('https://www.linkedin.com/in/shushantrishav/','target blank')">
+                <i class="fab fa-linkedin"></i>&nbsp;LinkedIn
+            </button>
+        </div>
+    </div>
+
+    <!--Projects-container---------------------------->
+    <div class="projects-section" id="project">
+        <!--text-->
+        <div class="projects-section-text">
+            <p>Projects</p>
+
+            <p>Here are some of my Projects</p>
+        </div>
+        <div class="projects">
+            <div class="container">
+                <div class="row">
+                    <div id="projects-grid" class="owl-carousel">
+                        <!--project 1 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="./assets/images/Project1.png" alt="word cloud" />
+                                <h2>Blackarch_wsl</h2>
+                                <p class="title">Linux</p>
+                                <div id="details">
+                                    <h5 style="margin-top: -5px">
+                                        Blackarch_wsl for WSL2 (windows 10 2004 or later) using wsldl
+                                    </h5>
+                                </div>
+                                <!-- button -->
+                                <button class="read-more"
+                                    onclick="window.open('https://www.sushantrishav.live/Blackarchwsl/','target blank')">Read
+                                    More</button>
+                            </div>
+                        </div>
+                        <!--END OF project 1 -->
+
+                        <!--project 2 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="./assets/images/Project2.jpg" alt="word cloud" />
+                                <h2>Covid Tracker</h2>
+                                <p class="title">Dash & DataScience</p>
+                                <div id="details">
+                                    <h5 style="margin-top: -5px">
+                                        A Dash Based Web-App to Track Covid19 Cases.(Guided Project)
+                                    </h5>
+                                </div>
+                                <!-- button -->
+                                <button class="read-more"
+                                    onclick="window.open('https://www.sushantrishav.live/Blackarchwsl/','target blank')">Read
+                                    More</button>
+                            </div>
+                        </div>
+                        <!--END OF project 2 -->
+
+                        <!--project 3 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="./assets/images/Project3.jpg" alt="word cloud" />
+                                <h2>Covid_Prediction</h2>
+                                <p class="title">Django & Ml</p>
+                                <div id="details">
+                                    <h5 style="margin-top: -5px">
+                                        A Fully Automated Django based covid-india Prediction App
+                                    </h5>
+                                </div>
+                                <!-- button -->
+                                <button class="read-more"
+                                    onclick="window.open('https://www.sushantrishav.live/covid_prediction/','target blank')">Read
+                                    More</button>
+
+                            </div>
+                        </div>
+                        <!--END OF project 3 -->
+                        <!--project 4 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="./assets/images/project4.jpg" alt="word cloud" />
+                                <h2>Word_Cloud app</h2>
+                                <p class="title">Django & Ml</p>
+                                <div id="details">
+                                    <h5 style="margin-top: -5px">
+                                        A django based web app to process text-file into word cloud.
+                                    </h5>
+                                </div>
+                                <!-- button -->
+                                <button class="read-more"
+                                    onclick="window.open('https://www.sushantrishav.live/word_cloud/','target blank')">Read
+                                    More</button>
+
+                            </div>
+                        </div>
+                        <!--END OF project 4 -->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-contact" id="contact">
+        <div class="title">
+            <h2>Contact Me</h2> <br>
+        </div>
+        <form class="contact-form" method="GET" autocomplete="off" name="google-sheet">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" class="fullname" placeholder="Name" name="Name">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" class="email-input" placeholder="Email" name="Email">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Subject</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" class="subject" placeholder="Subject" name="Subject">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Message</label>
+                </div>
+                <div class="col-75">
+                    <textarea type='text' class="message" cols="30" rows="10" placeholder="Message.."
+                        name="Message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input class="send-msg btn_trasp" type="submit" onclick="notifyBar()" name="send"></button>
+
+            </div>
+        </form>
+    </div>
+    </div>
+
+
+    <!--footer--------------->
+    <footer>
+        <span>Created By <a href="https://www.sushantrishav.live/" target='_black'>Shushant Rishav</a> | <span
+                class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+    <!--social-attach-bar-->
+    <div class="social">
+
+        <div onclick="window.open('https://github.com/Rishu20','target blank')"><i class="fab fa-github"></i></div>
+        <div onclick="window.open('https://twitter.com/rishavshushant','target blank')"><i class="fab fa-twitter"></i>
+        </div>
+        <div class="btn btn-toggle" onclick="imagefun()"><i class="fas fa-moon btn-toggle"></i></div>
+        <div onclick="window.open('mailto:sushantrishav90@gmail.com')" title="mail"><i class="fas fa-envelope"></i>
+        </div>
+        <div onclick="window.open('https://www.linkedin.com/in/shushantrishav/','target blank',)"><i
+                class="fab fa-linkedin"></i></div>
+    </div>
+
+    <!-- <script src="./assets/js/resume.js"></script> -->
+    <script src="./assets/js/prebuild_js/typed.js"></script>
+    <script src="./assets/js/prebuild_js/Owl_Carousel.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
